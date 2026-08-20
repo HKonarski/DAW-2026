@@ -103,7 +103,7 @@ Durante o projeto, registrarei nesta seção os principais aprendizados, desafio
 ## Próximos passos
 
 - [x] Criar a estrutura inicial com HTML; 07/08/2026
-- [ ] Adicionar os itens e as categorias do cardápio;
+- [x] Adicionar os itens e as categorias do cardápio; 14/08/2026
 - [ ] Desenvolver a identidade visual com CSS;
 - [ ] Organizar elementos em componentes reutilizáveis;
 - [ ] Tornar o layout responsivo;
