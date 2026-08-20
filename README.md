@@ -241,7 +241,7 @@ Throughout the project, I will use this section to document the main lessons, ch
 ## Next Steps
 
 - [x] Create the initial HTML structure - August 7, 2026.
-- [ ] Add menu items and categories;
+- [x] Add menu items and categories; - August 14,2026
 - [ ] Develop the visual identity with CSS;
 - [ ] Organize elements into reusable components;
 - [ ] Make the layout responsive;
