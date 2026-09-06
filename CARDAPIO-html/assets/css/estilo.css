@@ -21,11 +21,12 @@ body
     min-height: 100vh;
     color: var(--text);
     background-color: var(--bg);
+
 }
 .container, 
 main
 {
-    width: min(100% - 3rem, 1920px);
+    width: min(100% - 2rem, 1200px);
     margin-inline: auto;
 }
 
@@ -35,12 +36,17 @@ main
 body > header
 {
     background-color: #ffffff;
+    position: sticky;
+    top: 0rem;
+    z-index: 20;
 }
 
 header .container 
 {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid var(--border);
+    padding-block: 1rem;
 }
 
 
@@ -60,7 +66,7 @@ header .brand img
 
 header .brand h1 
 {
-    font-size: 1.75rem;
+    font-size: clamp(1.25rem, 5vw, 1.75rem);
     font-weight: 700;
     line-height: 1.05;
     letter-spacing: -0.5px;
@@ -68,6 +74,7 @@ header .brand h1
 
 header .brand p 
 {
+    display: none;
     font-size: 0.8rem;
     margin-top: 2px;
     color: var(--text-muted);
@@ -76,6 +83,7 @@ header .brand p
 header .cart-button 
 {
     display: flex;
+    flex: 0 0 auto;
     border: 1px solid var(--border);
     width: 2.75rem;
     height: 2.75rem;
@@ -95,6 +103,13 @@ header .cart-button img
 nav 
 {
     background-color: #ffffff;
+    border-bottom: 1px solid var(--border);
+    padding-block: 0.5rem;
+
+    overflow: hidden;
+    position: sticky;
+    top: 5rem;
+    z-index: 10;
 }
 
 nav ul
@@ -103,6 +118,15 @@ nav ul
     list-style: none;
     gap: 0.5rem;
     padding-block: 1rem;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: thin;
+}
+
+nav ul li
+{
+    flex: 0 0 auto;
 }
 
 nav ul a
@@ -113,7 +137,7 @@ nav ul a
     text-decoration: none;
     color: var(--text-muted);
     font-size: 0.875rem;
-    font-weight: 400;
+    font-weight: 500;
 
 }
 nav ul a.active
@@ -131,7 +155,7 @@ nav ul a:not(.active):hover
 main 
 {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 330px;
+    grid-template-columns: minmax(0, 1fr);
     gap:1.5rem;
     padding-block: 1.5rem;
 
@@ -139,7 +163,7 @@ main
 main > section
 {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr);
     gap: 1.25rem;
     align-items: start;
 }
@@ -153,7 +177,7 @@ main > section header
 }
 main > section header h2
 {
-    font-size: 1.4rem;
+    font-size: clamp(1.25rem, 5vw, 1.4rem);
 }
 main > section header p
 {
@@ -188,7 +212,7 @@ section article figure img
 section article figcaption
 {
     position:absolute;
-    top: 0.6rem;
+    top: 0.5rem;
     right: 0.5rem;
     background-color: var(--primary);
     color: #ffffff;
@@ -242,6 +266,43 @@ section article button
     margin-inline: 1rem;
 }
 
+main aside
+{
+    order: -1;
+    align-self: start;
+    border: 1px solid var(--border);
+    border-radius: 0.8rem;
+    background-color: #fff;
+    box-shadow: 0 10px 26px rgb(36, 33, 31 / 8%);
+}
+
+main aside h2
+{
+    padding: 1rem;
+    font-size: 1rem;
+}
+main aside .cart-empty
+{
+    text-align: center;
+    padding-block: 2rem;
+    border-top: 1px solid var(--border);
+}
+main aside .cart-empty p:first-of-type
+{
+    font-weight: 600;
+    font-size: .9rem;
+    color: var(--text);
+    margin-top: 0.6rem;
+}
+
+main aside .cart-empty p:last-of-type
+{
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    color: var(--text-muted);
+    
+}
+
 /***** Footer *****/
 
 footer
@@ -262,5 +323,68 @@ footer .container
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+/*****************************************************************************************/
+    /*****************************************/
+  /************* RESPONSIVIDADE *************/
+ /*   Celulares Maiores (30rem a 48rem)    */
+/******************************************/
+@media(min-width: 30rem)
+{
+    header .brand p
+    {
+        display: block;
+    }
+
+    header .cart-button
+    {
+        width: 3.25rem;
+        height: 2.625rem;
+    }
+}
+    /*****************************************/
+  /************* RESPONSIVIDADE *************/
+ /*    tables - 768px (30rem a 48rem)     */
+/*****************************************/
+
+@media(min-width: 48rem)
+{
+    main section
+    {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    footer .container
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+}
+
+    /*****************************************/
+  /************* RESPONSIVIDADE *************/
+ /*    Desktop - 1024px (64rem a 90rem)    */
+/******************************************/
+
+@media(min-width: 64rem)
+{
+    main
+    {
+        grid-template-columns: minmax(0, 1fr) 330px;
+    }
+    main section
+    {
+        grid-column: 1;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    aside
+    {
+        order: initial;
+        grid-column: 2;
+
+    }
 }

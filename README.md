@@ -106,7 +106,7 @@ Durante o projeto, registrarei nesta seção os principais aprendizados, desafio
 - [x] Adicionar os itens e as categorias do cardápio; 14/08/2026
 - [x] Desenvolver a identidade visual com CSS; 21/08/2026
 - [x] Organizar elementos em componentes reutilizáveis; 28/08/2026
-- [ ] Tornar o layout responsivo;
+- [x] Tornar o layout responsivo; 02/09/2026
 - [ ] Adicionar interações com JavaScript;
 - [ ] Testar a interface em diferentes dispositivos;
 - [ ] Publicar o projeto com GitHub Pages;
@@ -244,7 +244,7 @@ Throughout the project, I will use this section to document the main lessons, ch
 - [x] Add menu items and categories; - August 14,2026
 - [x] Develop the visual identity with CSS; - August 21, 2026
 - [x] Organize elements into reusable components; August 28, 2026
-- [ ] Make the layout responsive;
+- [x] Make the layout responsive; September 02, 2026
 - [ ] Add interactions with JavaScript;
 - [ ] Test the interface on different devices;
 - [ ] Publish the project with GitHub Pages;
