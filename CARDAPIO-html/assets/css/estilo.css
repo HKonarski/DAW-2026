@@ -211,7 +211,7 @@ section article figure img
 
 section article figcaption
 {
-    position:absolute;
+    position: absolute;
     top: 0.5rem;
     right: 0.5rem;
     background-color: var(--primary);
@@ -263,7 +263,7 @@ section article button
     cursor: pointer;
     grid-column: 2;
     align-self: center;
-    margin-inline: 1rem;
+    margin-right: 1rem;
 }
 
 main aside
