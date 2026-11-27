@@ -1,6 +1,6 @@
 import type { Product } from "../dtos/product";
 
-const CSV_URL = "/produtos.csv";
+const CSV_URL = `${import.meta.env.BASE_URL}produtos.csv`;
 const REQUIRED_COLUMNS = [
   "id",
   "name",
