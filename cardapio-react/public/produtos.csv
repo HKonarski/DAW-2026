@@ -1,0 +1,11 @@
+id,name,description,price,category,image
+1,Burguer,"Pão brioche, hambúrguer 160g, queijo prato e molho da casa.",22,lanches,./assets/img/burguer.png
+2,Bacon Burger,"Pão brioche, hambúrguer 160g, bacon, queijo cheddar e molho da casa.",25,lanches,./assets/img/burguer-bacon.png
+3,Duplo Burguer,"Dois hambúrgueres de 160g cada, cheddar, bacon e cebola caramelizada.",29,lanches,./assets/img/burguer-double.png
+4,Batata Rústica,"Porção de batata com alecrim, parmesao e maionese verde.",18,porcoes,./assets/img/batata-rustica.png
+5,Batata Tradicional,Porção de batata e maionese verde.,15,porcoes,./assets/img/batata-tradicional.png
+6,Água Sem Gás,Garrafa descartável de água sem gás com 500 ml.,8,bebidas,./assets/img/agua.png
+7,Refrigerante 300 ml,Copo de refrigerante de 300 ml.,10,bebidas,./assets/img/refri.png
+8,Chopp 300 ml,Caneca de 300 ml do nosso chopp pilsen geladíssimo.,15,bebidas,./assets/img/chopp.png
+9,Petit Gateau,Petit Gateau com uma bola de sorvete de creme.,25,sobremesas,./assets/img/petit-gateau.png
+10,Mousse de Maracujá,Mousse de maracujá feito com a fruta de verdade.,18,sobremesas,./assets/img/mousse-maracuja.png
