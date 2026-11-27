@@ -108,8 +108,8 @@ Durante o projeto, registrarei nesta seção os principais aprendizados, desafio
 - [x] Organizar elementos em componentes reutilizáveis; 28/08/2026
 - [x] Tornar o layout responsivo; 02/09/2026
 - [x] Adicionar interações com JavaScript; 11/09/2026
-- [ ] Testar a interface em diferentes dispositivos;
-- [ ] Publicar o projeto com GitHub Pages;
+- [x] Testar a interface em diferentes dispositivos; 20/11/2026
+- [ ] Publicar o projeto com GitHub Pages; 
 - [ ] Adicionar capturas de tela e demonstração do projeto.
 
 ## Demonstração
@@ -246,7 +246,7 @@ Throughout the project, I will use this section to document the main lessons, ch
 - [x] Organize elements into reusable components; August 28, 2026
 - [x] Make the layout responsive; September 02, 2026
 - [x] Add interactions with JavaScript; September 11, 2026
-- [ ] Test the interface on different devices;
+- [x] Test the interface on different devices; November 20, 2026
 - [ ] Publish the project with GitHub Pages;
 - [ ] Add screenshots and a project demo.
 
