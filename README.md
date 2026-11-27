@@ -109,14 +109,14 @@ Durante o projeto, registrarei nesta seção os principais aprendizados, desafio
 - [x] Tornar o layout responsivo; 02/09/2026
 - [x] Adicionar interações com JavaScript; 11/09/2026
 - [x] Testar a interface em diferentes dispositivos; 20/11/2026
-- [ ] Publicar o projeto com GitHub Pages; 
-- [ ] Adicionar capturas de tela e demonstração do projeto.
+- [x] Publicar o projeto com GitHub Pages; 27/11/2026
+- [ ] Adicionar capturas de tela do projeto.
 
 ## Demonstração
 
-Quando o projeto estiver publicado, o endereço poderá ser adicionado aqui:
+O projeto está publicado no GitHub Pages:
 
-**Acesso ao projeto:** `LINK_DO_GITHUB_PAGES`
+**Acesso ao projeto:** [Cardápio Digital](https://hkonarski.github.io/DAW-2026/)
 
 ## Capturas de tela
 
@@ -247,14 +247,14 @@ Throughout the project, I will use this section to document the main lessons, ch
 - [x] Make the layout responsive; September 02, 2026
 - [x] Add interactions with JavaScript; September 11, 2026
 - [x] Test the interface on different devices; November 20, 2026
-- [ ] Publish the project with GitHub Pages;
-- [ ] Add screenshots and a project demo.
+- [x] Publish the project with GitHub Pages; November 27, 2026.
+- [ ] Add project screenshots.
 
 ## Demo
 
-Once the project is published, its URL will be added here:
+The project is published on GitHub Pages:
 
-**Live project:** `GITHUB_PAGES_LINK`
+**Live project:** [Digital Menu](https://hkonarski.github.io/DAW-2026/)
 
 ## Screenshots
 
